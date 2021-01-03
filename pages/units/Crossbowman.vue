@@ -20,10 +20,8 @@
             >與<nuxt-link to="/units/Siege_Weapons">攻城器</nuxt-link>較弱。
           </p>
           <p>
-            除了<nuxt-link to="/civs/Spanish">西班牙</nuxt-link>和<nuxt-link
-              to="/civs/Bulgarians"
-              >保加利亞</nuxt-link
-            >之外，其他<nuxt-link to="/civs">文明</nuxt-link>都有弩兵。
+            除了<nuxt-link to="/civs/Spanish">西班牙人</nuxt-link
+            >之外，所有<nuxt-link to="/civs">文明</nuxt-link>都有弩兵。
           </p>
         </div>
         <h3>戰術</h3>
@@ -94,7 +92,7 @@
               >、<nuxt-link to="/units/Huskarl">哥德衛隊</nuxt-link>、<nuxt-link
                 to="/units/Eagle_Warrior"
                 >鷹勇士</nuxt-link
-              >、<nuxt-link to="/units/Rattan_Archer">藤甲弓兵</nuxt-link>。
+              >。
             </td>
           </tr>
           <tr class="tta">
@@ -122,7 +120,7 @@
               <br />
               <img
                 class="gg"
-                src="~assets/Bracer.png"
+                src="~assets/Bracer.jpg"
                 width="30"
                 alt=""
               /><nuxt-link to="/techs/Bracer">強力護腕</nuxt-link>(+1) <br />
@@ -162,7 +160,7 @@
               <br />
               <img
                 class="gg"
-                src="~assets/Bracer.png"
+                src="~assets/Bracer.jpg"
                 width="30"
                 alt=""
               /><nuxt-link to="/techs/Bracer">強力護腕</nuxt-link>(+1) <br />
@@ -188,7 +186,7 @@
             <td class="tta4">
               <img
                 class="gg"
-                src="~assets/ballistics.png"
+                src="~assets/Ballistics.jpg"
                 width="30"
                 alt=""
               /><nuxt-link to="/techs/Ballistics">彈道學</nuxt-link
@@ -263,20 +261,6 @@
               /><nuxt-link to="/techs/Conscription">徵兵技術</nuxt-link>(+33%)
             </td>
           </tr>
-          <tr>
-            <td class="tta1" style="width:10%">
-              其它
-            </td>
-            <td class="tta4">
-              <img src="~assets/unique_tech.png" class="gg" alt="" /><nuxt-link
-                to="/techs/Kamandaran"
-                >波斯弓兵</nuxt-link
-              >:訓練<nuxt-link to="/units/Archer">徒步弓兵</nuxt-link
-              >系消耗額外<nuxt-link to="/resource/Wood">木材</nuxt-link
-              >，而不消耗<nuxt-link to="/resource/Gold">黃金</nuxt-link
-              >。<nuxt-link to="/civs/Persians">波斯</nuxt-link>限定
-            </td>
-          </tr>
         </table>
 
         <h3>剋射手系的單位</h3>
@@ -299,7 +283,7 @@
                     >→
                     <img
                       class="gg"
-                      src="~assets/Elite_cannon_galleonicon.png"
+                      src="~assets/CannonGalleonIcon.png"
                       alt=""
                     /><nuxt-link to="/units/Elite_Cannon_Galleon"
                       >精銳火砲戰船</nuxt-link
@@ -489,24 +473,19 @@
               </div>
             </div>
           </div>
-
           <h3>文明加成</h3>
           <div class="hrn1"></div>
           <div class="n1">
             <ul>
               <li>
                 <nuxt-link to="/civs/Aztecs">阿茲特克</nuxt-link
-                >：弩兵生產快11%。
+                >：弩兵生產快15%。
               </li>
               <li>
                 <nuxt-link to="/civs/Britons">不列顛</nuxt-link
                 >：弩兵自<nuxt-link to="/techs/age/Castle_Age">城堡</nuxt-link
                 >/<nuxt-link to="/techs/age/Imperial_Age">帝王時代</nuxt-link
                 >有額外+1/+2的射程。
-              </li>
-              <li>
-                <nuxt-link to="/civs/Bulgarians">保加利亞</nuxt-link
-                >：<nuxt-link to="/building/Blacksmith">兵工廠</nuxt-link>弩兵科技升級所需食物-50%。
               </li>
               <li>
                 <nuxt-link to="/civs/Chinese">中國</nuxt-link>：弩兵<nuxt-link
@@ -521,10 +500,6 @@
                 >快18%。
               </li>
               <li>
-                <nuxt-link to="/civs/Koreans">朝鮮</nuxt-link
-                >：弩兵護甲升級免費。
-              </li>
-              <li>
                 <nuxt-link to="/civs/Mayans">馬雅</nuxt-link>：弩兵在<nuxt-link
                   to="/techs/age/Castle_Age"
                   >城堡</nuxt-link
@@ -532,16 +507,11 @@
               </li>
               <li>
                 <nuxt-link to="/civs/Portuguese">葡萄牙</nuxt-link
-                >：弩兵花費<nuxt-link to="/resource/Gold">黃金</nuxt-link
-                >成本少20%。弓兵科技研發速度+30%。
-              </li>
-              <li>
-                <nuxt-link to="/civs/Saracens">薩拉森</nuxt-link
-                >：弩兵在城堡/帝王vs標準建築+2/+3攻擊力。
+                >：弩兵花費黃金成本少15%。
               </li>
               <li>
               <nuxt-link to="/civs/Tatars">韃靼</nuxt-link>：弩兵高地戰鬥傷害+50%。<nuxt-link to="/techs/Thumb_Ring">拇指環</nuxt-link>免費。
-            </li>
+              </li>
               <li>
                 <nuxt-link to="/civs/Turks">土耳其</nuxt-link>：<nuxt-link
                   to="/techs/Chemistry"
@@ -550,9 +520,11 @@
               </li>
               <li>
                 <nuxt-link to="/civs/Vietnamese">越南</nuxt-link
-                >：弩兵血量增加20%。<nuxt-link to="/techs/Conscription"
+                >：弩兵在<nuxt-link to="/techs/age/Castle_Age">城堡</nuxt-link
+                >/帝王時代的血量增加15%/20%。免費<nuxt-link
+                  to="/techs/Conscription"
                   >徵兵技術</nuxt-link
-                >免費。
+                >。
               </li>
             </ul>
           </div>
@@ -565,24 +537,13 @@
                   to="/techs/Kasbah"
                   >聚居堡壘</nuxt-link
                 >能夠加速<nuxt-link to="/techs/Conscription">徵兵技術</nuxt-link
-                >的研究時間(快25%)。
+                >的研究時間(快25%)
               </li>
               <li>
                 <nuxt-link to="/civs/Britons">不列顛</nuxt-link
                 >：弩兵生產和升級快20%。研發<nuxt-link to="/techs/Thumb_Ring"
                   >拇指環</nuxt-link
                 >速度快20%。
-              </li>
-              <li>
-                <nuxt-link to="/civs/Bulgarians">保加利亞</nuxt-link
-                >：<nuxt-link to="/building/Blacksmith">兵工廠</nuxt-link
-                >提升弩兵護甲和攻擊的科技研發快80％。
-              </li>
-              <li>
-                <nuxt-link to="/civs/Lithuanians">立陶宛</nuxt-link>：<nuxt-link
-                  to="/techs/Heresy"
-                  >異端邪說</nuxt-link
-                >與<nuxt-link to="/techs/Faith">忠誠信仰</nuxt-link>研發快20%。
               </li>
               <li>
                 <nuxt-link to="/civs/Magyars">馬扎爾</nuxt-link>：弩兵<nuxt-link
@@ -671,48 +632,6 @@
                   to="/armor/Armor_Class_stone_defense"
                   >石頭建築</nuxt-link
                 >攻擊+6
-              </li>
-            </ul>
-            <h3>
-              <em><nuxt-link to="/games/de">決定版</nuxt-link></em>
-            </h3>
-            <ul>
-              <li>
-                <nuxt-link to="/civs/Persians">波斯</nuxt-link>: 將<nuxt-link
-                  to="/techs/Boiling_Oil"
-                  >沸油</nuxt-link
-                >取代為<nuxt-link to="/techs/Kamandaran">波斯弓兵</nuxt-link>。
-              </li>
-              <li>
-                <nuxt-link to="/civs/Saracens">薩拉森</nuxt-link>:
-                弩兵在城堡/帝王vs標準建築+2/+3攻擊力。
-              </li>
-              <li>
-                (39284更新)
-                <nuxt-link to="/civs/Koreans">朝鮮</nuxt-link
-                >弩兵的木材成本從–15%改為-20%。
-              </li>
-              <li>
-                (42848更新) 朝鮮弩兵護甲升級免費。
-              </li>
-              <li>
-                (42848更新)
-                <nuxt-link to="/civs/Bulgarians">保加利亞</nuxt-link
-                >團隊加分中<nuxt-link to="/building/Blacksmith"
-                  >兵工廠</nuxt-link
-                >工作效率從+50%增加成+80%。
-              </li>
-              <li>
-                (42848更新)
-                <nuxt-link to="/civs/Portuguese">葡萄牙</nuxt-link>科技研發速度
-                +30%。
-              </li>
-              <li>
-                (42848更新)
-                馬雅的<nuxt-link
-                  to="/techs/Obsidian_Arrows"
-                  >黑曜石之箭</nuxt-link
-                >對石牆、城門、箭塔和碼頭取消雙倍攻擊加成。
               </li>
             </ul>
           </div>
@@ -927,7 +846,7 @@
             <td class="unit3">升級到</td>
             <td class="unit4">
               <img class="gg" src="~assets/ArbalestIcon.png" alt="" /><nuxt-link
-                to="/units/Arbalester"
+                to="/units/Arbalest"
                 >強弩兵</nuxt-link
               >
             </td>
